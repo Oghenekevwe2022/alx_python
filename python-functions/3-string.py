@@ -1,9 +1,11 @@
 #!/usr/bin/env python3
 
-# def reverse_string(string):
-#     return 
+def reverse_string(string):
+    return string [::-1]
 
-number_string = input("Enter number: ")
-number_string_reversed = number_string[::-1]
+# Hello = input('Enter word: ')
 
-# print(number_string_reversed)
+# number_string = input("Enter number: ")
+# number_string_reversed = number_string[::-1]
+
+print(reverse_string("Hello, World"))
