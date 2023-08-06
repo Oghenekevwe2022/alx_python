@@ -1,17 +1,17 @@
 if __name__ == "__main__":
 
-    def helloworld():
-        print('Hello')
+#     def helloworld():
+#         print('Hello')
 
-helloworld()
+# helloworld()
 
-def no_of_argu(Hello):
-    for length in Hello:
-        print(length)
+    def no_of_argu(Hello):
+        for length in Hello:
+            print(length)
 
-Hello = ['Hello', 'Holberton', 'School', 98, 'Battery', 'street']
+Hello = ['Hello']
 size = len(Hello)
-print(size, "arguments: ")
+print(size, "argument: ")
 no_of_argu(Hello)
 
     
