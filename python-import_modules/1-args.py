@@ -9,7 +9,7 @@ if __name__ == "__main__":
         for length in Hello:
             print(length)
 
-Hello = ['Hello']
+Hello = ['1: Hello']
 size = len(Hello)
 print(size, "argument: ")
 no_of_argu(Hello)
