@@ -6,5 +6,5 @@ def raise_exception(a, c):
 try:
     raise_exception("Helloworld")
 except TypeError as te:
-    print("Exception raised")
+    print("Exception has been raised")
     

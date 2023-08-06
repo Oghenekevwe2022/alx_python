@@ -9,19 +9,9 @@ try:
     result = safe_print_division(a, b)
     print("{:d} / {:d} = {}".format(a, b, result))
 except:
-     print (None)
+     print("{:d} / {:d} = {}".format(a, b, result))
 finally:
-    print(a/b)
-
-
-
-# a = 12
-# b = 0
-# result = safe_print_division(a, b)
-# print("{:d} / {:d} = {}".format(a, b, result))
-
-
-# print(safe_print_division(12, 2))
+    print(safe_print_division(12, 2))
 
 
 
