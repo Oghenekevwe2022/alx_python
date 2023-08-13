@@ -15,5 +15,5 @@ matrix = [
 ]
 
 result_matrix = square_matrix_simple(matrix)
-for row in result_matrix:
-    print(row, end="")
+# for row in result_matrix:
+    # print(row, end="")
